@@ -1,7 +1,5 @@
 
 
-
-
 body{
     background-color: darkolivegreen;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
@@ -32,8 +30,8 @@ h3{
 
 button{
   
-  background-color: rgb(176, 166, 237);
-  color: white;
+  background-color: rgb(240, 179, 228);
+  color: black;
   border: solid 1px white;
   text-decoration: none;
   cursor: pointer;
@@ -42,12 +40,7 @@ button{
   width: 180px;
   margin: 10px;
   outline: none;
-  &:hover {
-    @include transition;
-    background: $white;
-    border: solid 1px $white;
-    color: $base-color;
-  }
+  
 }
 
           
